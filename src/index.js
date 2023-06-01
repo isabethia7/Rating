@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import StarRating from "./StarRating.js";
+import App from "./App";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
     <React.StrictMode>
-        <StarRating />
+        <App />
     </React.StrictMode>,
     rootElement
 );
